@@ -36,7 +36,7 @@
 - 适合现场手写复现的 `handwrite/` 三文件入口；
 - 适合二次开发复用的 `vision_motion_kit/` 源码库。
 
-原最终包只包含 wheel 时，本开源版已从 wheel 中恢复 `vision_motion_kit` 源码。开源版以源码为主，不以 `dist/*.whl` 为主。
+`vision_motion_kit/` 是本项目配套的自写源码库。开源版直接以源码目录维护；历史比赛包里的 wheel 仅是打包产物，不作为仓库主内容提交。
 
 ## 适用硬件与软件
 
