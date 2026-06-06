@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raicom-mg400-vision-open"
+version = "0.1.0"
+description = "Open-source MG400 + DobotVisionStudio + YOLO vision grasping demo"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "raicom-mg400-vision-open contributors" }]
+dependencies = [
+  "ultralytics>=8.0",
+  "Pillow>=10.0",
+  "opencv-python>=4.8",
+]
+
+[tool.setuptools]
+packages = ["vision_motion_kit"]

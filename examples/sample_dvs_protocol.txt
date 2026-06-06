@@ -1,0 +1,14 @@
+# Python -> DobotVisionStudio
+TRIGGER
+
+# DobotVisionStudio -> Python
+CLEAR
+IMG,images/current.bmp
+POINT,1730.0,1154.0,120.0,-35.0,0.0
+POINT,1600.0,1000.0,135.0,-18.0,0.0
+END
+
+# Fields
+# POINT,px,py,robot_x,robot_y,angle
+# px,py: image pixel coordinate
+# robot_x,robot_y,angle: robot-side pose after calibration / variable calculation

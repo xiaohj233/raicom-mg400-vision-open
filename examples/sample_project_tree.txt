@@ -1,0 +1,9 @@
+raicom-mg400-vision-open/
+  handwrite/
+  vision_motion_kit/
+  dataset/images/
+  dataset/labels/
+  models/
+  images/
+  examples/
+  scripts/
